@@ -38,3 +38,7 @@ git push origin : envoyer contenu au dépôt distant
 git checkout -b nom_new_branche : création et positionnement sur la nouvelle branche
 git checkout nom_branche_désirée : se déplacer entre les branches
 
+git branch nom_New_Branche : création de la nouvelle branche nommée
+git branch -D nom_Branche : supprimer la branche nommée
+
+git pull :obtenir la dernière version en ligne de master
