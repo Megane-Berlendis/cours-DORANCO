@@ -5,7 +5,12 @@ permet de naviguer entre les version du projet
 
 pour application a plusieur fichier 
 
-VOCABULLAIRE:
+Avec GIT nous travaillons sur la branche master, c'est une branche qui va surveiller toutes les modifications des fichiers de notre application.
+si on veut faire un essai ou ajouter une fnctionnalité à notre applicat°, il faut d'abors tester la fonctionaité. Pour cela il faut créer une "branche parallèle" qui va servir à a faire nos test au cas où on fait n'importe quoi pour ne pas détruire notre projet.
+
+GITHUB : hebergeur de dépôt GIT a distance
+
+VOCABULAIRE:
 
 * Repository: dépôt
 * Commit    : version
@@ -21,3 +26,11 @@ git status : statut dépôt GIT
 git config --global user.name "Mégane BERLENDIS" 
 git config --global user.email "berlendis_megane@gmx.fr" 
 Pour identifier le user sur GIT 
+
+git commit -m "message" : 
+    Xple:git commit -m "Démonstration de l'ajout de plusieur fichiers avec add --all"
+
+git remote add NOM-branche-principale URL-lien-vers-hébergeur-distant
+    Xple:git remote add origin https://github.com/Megane-Berlendis/cours-DORANCO.git
+
+git push origin : envoyer contenu au dépôt distant
