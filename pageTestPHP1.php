@@ -1,3 +1,4 @@
+
 <?php?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,3 +12,8 @@
     <p>blablablza on a modifier </p>
 </body>
 </html>
+
+<?php
+// blablabla on a modifier ce doc lol lol lol
+?>
+
