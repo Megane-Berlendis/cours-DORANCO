@@ -1,0 +1,17 @@
+GIT est un outil de versionning = vcs
+Version control système
+
+permet de naviguer entre les version du projet
+
+pour application a plusieur fichier 
+
+VOCABULLAIRE:
+
+* Repository: dépôt
+---------------------------
+
+git init : création dépot local
+
+git config --global user.name "Mégane BERLENDIS" 
+git config --global user.mail "berlendis_megane@gmx.fr" 
+Pour identifier le user sur GIT 
