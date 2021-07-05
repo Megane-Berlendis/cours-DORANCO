@@ -8,10 +8,16 @@ pour application a plusieur fichier
 VOCABULLAIRE:
 
 * Repository: dépôt
+* Commit    : version
 ---------------------------
 
 git init : création dépot local
 
+git add nomFichier(s).extention : ajouter fichier au dépôt
+    Xple : git add explication.txt
+
+git status : statut dépôt GIT
+
 git config --global user.name "Mégane BERLENDIS" 
-git config --global user.mail "berlendis_megane@gmx.fr" 
+git config --global user.email "berlendis_megane@gmx.fr" 
 Pour identifier le user sur GIT 
