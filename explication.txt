@@ -34,3 +34,7 @@ git remote add NOM-branche-principale URL-lien-vers-hébergeur-distant
     Xple:git remote add origin https://github.com/Megane-Berlendis/cours-DORANCO.git
 
 git push origin : envoyer contenu au dépôt distant
+
+git checkout -b nom_new_branche : création et positionnement sur la nouvelle branche
+git checkout nom_branche_désirée : se déplacer entre les branches
+
